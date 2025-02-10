@@ -1,0 +1,12 @@
+# Ignoring temporary or irrelevant files:
+*.log             # Log files
+*.tmp             # Temporary files
+*.bak             # Automatic backups
+*.pbix            # Power Bi
+
+# Ignoring specific folders
+other_solutions/             # unfinished chinese solution
+Help/                        # Example of code used in the exercise
+
+# Ignoring subfolders or files out of p3_WildAir
+../../GitHub/     # Another irrelevant folder
