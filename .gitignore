@@ -5,8 +5,8 @@
 *.pbix            # Power Bi
 
 # Ignoring specific folders
-other_solutions/             # unfinished alternative solutions
-Help/                        # Example of code used in the exercise
+Help/
+other_solutions/
 
 # Ignoring subfolders or files out of BCase_PinkyTelecom
 ../../GitHub/     # Another irrelevant folder
