@@ -12,13 +12,15 @@ After our analysis, we predicted about 30 active “Pinky” clients with more t
 
 We targeted clients active for more than 4 months and our group has a tenure of 13 months on average, a bit more than a year on a subscription. 
 
+![Monthly Charges and tenure by Churn](DataViz%20images/pbi%20clients%20tenure%20pres.JPG)
+
 All of them have an internet service, only 3 with a low risk inside this high risk group have a fiber subscription, and only 7 don't have a phone service subscription. 
 
 The average of Monthly Charges of this group is around 55 euros and at least one who has been with the company for almost 4 years (46 months) is paying nearly 44 euros a month, for DSL with streamingTV and streamingMovies, showing 60% of chances of “churning”.
 
 At least 9 out of our 30 high risk clients have declared to have a partner and 5 have dependents, including one without a partner, which shows that family/collective packages might affect this clients decisions to subscribe to services.
 
-From our analysis we can underline that a lot of the churn rate is linked to "Month-to-Month" type of contracts and internet clients without extra services which might have helped to convince others to stay with Pinky services.
+From our analysis we can underline that a lot of the churn rate is linked to "Month-to-Month" type of contracts and internet clients without extra services.
 
 The majority of the 31% of churn clients apparently take decisions alone and don't have dependents. At least 75% of them quit before they complete 2 years with Pinky services which might be linked to the end contracts and easy to quit “month-to-month” services.
 
@@ -46,6 +48,8 @@ Going into data visualization (DataViz), we noticed the close correlations betwe
 
 The load of the monthly charge might have a heavier load in the decision for quitting as we could notice that at least 50% of the churn rate were made by clients that were paying between 45 and 90 euros per month, the large majority were DSL clients.
 
+![Monthly Charges and tenure by Churn](DataViz%20images/boxplots_churn_tenure.png)
+
 Gender, on the other hand, had no role in the churn rate as it is balanced both ways.
 
 Family seems to play a role as clients with partners and or dependents seem less inclined to churn.
@@ -70,6 +74,8 @@ The Recall sensitivity for "churn" reached 76%.
 After ML training we wen back and did another small data analysis to compare active clients and churned, noticing that 23% of the “churned” were senior clients and 55% of the clients with partners and 35% with dependents were more inclined to a stable subscription. 
 
 Almost 90% of the “churn” but also of the active clients had the phone service which indicates that DSL internet service is the heavyweight in the “churn” team.
+
+![Contract durations by Churn](DataViz%20images/contract%20pizzas.png)
 
 ## Prediction
 
